@@ -15,6 +15,7 @@ namespace ResumeBuilder.Models
         }
 
         public DbSet<Person> Person { get; set; }
+        public DbSet<PersonEducation> PersonEducation { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelbuilder)
         {
